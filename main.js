@@ -54,7 +54,6 @@ const speak = () =>{
             main.addEventListener('animationiteration', ()=>{
                 main.classList.remove('speaking'),
                 {once:true}
-            })
 
         })
         speechSynthesis.speak(utterrance);
